@@ -1,5 +1,5 @@
 select *
-from Clientes /* Verificação da tabela inteira */
+from Clientes /* Verificacao da tabela inteira */
 
 select *
 from Clientes
@@ -12,7 +12,7 @@ insert Clientes values (4, 'Marcos', 'J');
 insert Clientes values (5, 'Evelyn', 'F'); /* Realizar o insert novamente depois do delet */
 insert Clientes values (6, 'Evelyn', 'F');
 
-delete from Clientes where Codigo in(5); /* Exclusão da linha 5 */
+delete from Clientes where Codigo in(5); /* Exclusao da linha 5 */
 
 Update Clientes
 set Nome = 'Juca',
